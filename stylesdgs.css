@@ -1,6 +1,5 @@
 *,
-html
-{
+html {
     padding: 0px;
     margin: 0px;
     font-family: poppins;
@@ -29,7 +28,7 @@ header {
 }
 
 .nav-bar {
-    background: radial-gradient(rgb(171, 216, 255),#ffffff);
+    background: radial-gradient(rgb(171, 216, 255), #ffffff);
     height: 5vh;
     font-size: 18px;
     padding-left: 200px;
@@ -45,7 +44,7 @@ header {
     margin-left: 40px;
     margin-right: 40px;
     transition: .2s ease-in-out;
-    transition-delay:.1s;
+    transition-delay: .1s;
 }
 
 .nav-isi:hover {
@@ -78,7 +77,7 @@ header {
 }
 
 .home-img:hover {
-    height: 500px; 
+    height: 500px;
     width: 520px;
 }
 
@@ -88,9 +87,9 @@ header {
 .explore-bar {
     background-color: none;
     display: grid;
-    height: 88vh;
-    padding-top: 2vh;
-    grid-template-columns: repeat(5, 1fr);
+    height: 170vh;
+    padding-top: 1vh;
+    grid-template-columns: repeat(3, 2fr);
     font-size: 10px;
 }
 
@@ -119,9 +118,9 @@ header {
     padding: 5px;
     border-radius: 20px;
     height: 80vh;
-    box-shadow: -1px 5px 11px 3px rgba(0,0,0,0.7);
-    -webkit-box-shadow: -1px 5px 11px 3px rgba(0,0,0,0.7);
-    -moz-box-shadow: -1px 5px 11px 3px rgba(0,0,0,0.7);
+    box-shadow: -1px 5px 11px 3px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: -1px 5px 11px 3px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: -1px 5px 11px 3px rgba(0, 0, 0, 0.7);
     cursor: pointer;
 }
 
@@ -175,49 +174,52 @@ header {
     height: 30px;
 }
 
-.contact-form > label {
-  margin-bottom: 10px;
-  font-size: 18px;
-}
-.contact-form > input,
-.contact-form > textarea {
-  width: 100%;
-  padding: 15px 20px;
-  border-radius: 4px;
-  border: solid #2a2a2a;
-  margin-bottom: 10px;
-  box-sizing: border-box;
-  resize: none;
-}
-.contact-form > input {
-  height: 50px;
-}
-.contact-form > textarea {
-  height: 150px;
+.contact-form>label {
+    margin-bottom: 10px;
+    font-size: 18px;
 }
 
-.project-button > button {
-  padding: 10px 20px;
-  background-color: #48759a;
-  color: white;
-  border: none;
-  width: 40%;
-  border-radius: 4px;
-  margin-top: 10px;
-  font-size: 16px;
-  transition: 0.3s ease;
-  transition-delay: 0.2s;
+.contact-form>input,
+.contact-form>textarea {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 4px;
+    border: solid #2a2a2a;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    resize: none;
 }
 
-.project-button > button:hover{
-  padding: 10px 20px;
-  background-color: #48759a;
-  color: white;
-  border: none;
-  width: 50%;
-  border-radius: 4px;
-  margin-top: 10px;
-  font-size: 16px;
+.contact-form>input {
+    height: 50px;
+}
+
+.contact-form>textarea {
+    height: 150px;
+}
+
+.project-button>button {
+    padding: 10px 20px;
+    background-color: #48759a;
+    color: white;
+    border: none;
+    width: 40%;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: 0.3s ease;
+    transition-delay: 0.2s;
+}
+
+.project-button>button:hover {
+    padding: 10px 20px;
+    background-color: #48759a;
+    color: white;
+    border: none;
+    width: 50%;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
 
