@@ -90,7 +90,7 @@ header {
     height: 170vh;
     padding-top: 1vh;
     grid-template-columns: repeat(3, 3fr);
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .explore-isi {
